@@ -1,0 +1,6 @@
+# Python virtual environment (never commit this — it's huge and machine-specific)
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& .\\\\.venv\\\\Scripts\\\\python.exe -m pip install --upgrade pip --quiet)",
+      "PowerShell(& .\\\\.venv\\\\Scripts\\\\python.exe -m pip install -r requirements.txt)",
+      "PowerShell($g = \\(git --version\\) 2>&1; \"git: $g\"; \"user.name: $\\(\\(git config --global user.name\\) 2>&1\\)\"; \"user.email: $\\(\\(git config --global user.email\\) 2>&1\\)\")"
+    ]
+  }
+}
