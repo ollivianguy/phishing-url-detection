@@ -4,3 +4,6 @@
 # Python caches
 __pycache__/
 *.pyc
+
+# Claude Code local settings (not part of the project)
+.claude/
