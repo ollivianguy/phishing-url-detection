@@ -1,0 +1,5 @@
+,precision,recall,f1,robust
+baseline,0.998,0.9954,0.9967,0.678
+adversarial training,0.9972,0.9958,0.9965,0.9982
+feature hardening,0.9952,0.9954,0.9953,0.9946
+both defences,0.9949,0.995,0.995,0.9985
