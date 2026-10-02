@@ -1,0 +1,16 @@
+original_url,attacker_url,moves,p_phish_before,p_phish_after
+http://www.pradopro.ru,https://www.pradopro.ru,serve over HTTPS,1.0,0.0
+http://www.ztl.firefoxupdata.com,https://www.ztl.firefoxupdata.com,serve over HTTPS,1.0,0.043
+http://www.defri.xyz,https://www.defri.xyz,serve over HTTPS,1.0,0.26
+http://www.eminenture.in/soft/office20/,https://www.eminenture.in,page at site root + serve over HTTPS,1.0,0.373
+http://www.sivnquldmiqa.ratkings.net,https://www.sivnquldmiqa.ratkings.net,serve over HTTPS,0.993,0.057
+http://www.saisoen-co-jp.aesesnse.sxpzjv.top/jp.php,https://www.saisoencojp.aesesnse.sxpzjv.com,name without digits/hyphens + register as .com + page at site root + serve over HTTPS,1.0,0.26
+https://jpappe.za.com/popular/philownpage.html,https://www.jpappe.za.com,add 'www.' + page at site root,1.0,0.143
+https://email.plusydlabiznesu.pl/email/n?l=https://cartomanziatrigono3.it/wp-includes/new/auth//bxpygi////user@example.org,https://www.email.plusydlabiznesu.pl,add 'www.' + page at site root,1.0,0.12
+http://www.wificam.org,https://www.wificam.org,serve over HTTPS,1.0,0.0
+https://emailenc.ir/school/login.html,https://www.emailenc.ir,add 'www.' + page at site root,1.0,0.233
+https://www.solcoin.cc/app/#/,https://www.solcoin.cc,page at site root,0.853,0.0
+http://www.helpdesk-product.com,https://www.helpdesk-product.com,serve over HTTPS,1.0,0.0
+https://impactvisuals.net/sc1/,https://www.impactvisuals.net,add 'www.' + page at site root,0.993,0.0
+http://www.classifoods.com,https://www.classifoods.com,serve over HTTPS,1.0,0.0
+http://www.beargrizzler.win,https://www.beargrizzler.win,serve over HTTPS,0.993,0.097

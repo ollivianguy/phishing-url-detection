@@ -1,0 +1,7 @@
+rule,real phishing URLs,problem-space (all five moves),problem-space (adaptive),feature-space (same five moves)
+letters + digits + symbols fit inside the URL,0.0,0.0,0.0,0.3205
+letter ratio matches the letter count,0.0,0.0,0.0,0.95159
+digit ratio matches the digit count,0.0,0.0,0.0,0.0
+symbol ratio matches the symbol count,0.0,0.0,0.0,0.0
+every dot in the host is counted as a symbol,0.0,0.0,0.0,1.0
+the domain is shorter than the whole URL,0.0,0.0,0.0,0.35847

@@ -1,0 +1,5 @@
+model,name without digits/hyphens,register as .com,add 'www.',page at site root,serve over HTTPS
+Baseline,0.1824,0.2463,0.2654,0.2183,0.7869
+Adversarial training,0.1484,0.281,0.2839,0.2122,0.7559
+Delete IsHTTPS column,0.2142,0.291,0.268,0.2182,0.7849
+Prefix-blind features,0.2017,0.2705,0.0,0.2087,0.0

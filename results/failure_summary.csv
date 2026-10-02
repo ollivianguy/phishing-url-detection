@@ -1,0 +1,8 @@
+statistic,missed_phishing,caught_phishing,false_alarms
+IsHTTPS,1.0,0.4915,1.0
+HasWWW,1.0,0.4095,1.0
+URLLength,28.2857,46.4282,29.7667
+NoOfOtherSpecialCharsInURL,1.5286,3.8615,1.7333
+DegitRatioInURL,0.0109,0.0651,0.0479
+count,70.0,15072.0,30.0
+mean_proba_phish,0.1301,0.9968,0.6156

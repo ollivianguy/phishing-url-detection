@@ -1,5 +1,8 @@
-# Python virtual environment (never commit this — it's huge and machine-specific)
+# Python virtual environment (never commit this - it is large and machine-specific)
 .venv/
+
+# Local copy of the dataset (downloaded automatically from UCI on first run)
+data/
 
 # Python caches
 __pycache__/

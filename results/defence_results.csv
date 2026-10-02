@@ -1,0 +1,5 @@
+model,features,training_rows,threshold,test_false_alarm_rate,roc_auc_clean,recall_no_attack,recall_https_only,recall_adaptive_anticipated,recall_adaptive_all,default_0.5_recall_adaptive_all,default_0.5_false_alarm_rate,cost_clean_recall,gain_vs_adaptive_attacker
+Baseline,21.0,165056.0,0.61667,0.00059,0.99892,0.99445,0.67679,0.66279,0.51149,0.53487,0.00148,0.0,0.0
+Adversarial training,21.0,198089.0,0.98333,0.00069,0.99932,0.95661,0.6801,0.67468,0.51327,0.74435,0.0967,-0.03784,0.00178
+Delete IsHTTPS column,20.0,165056.0,0.67,0.00109,0.99906,0.99161,0.70446,0.67884,0.53322,0.57403,0.00356,-0.00284,0.02173
+Prefix-blind features,20.0,165056.0,0.97667,0.00094,0.93251,0.67659,0.67659,0.65143,0.54808,0.7575,0.09853,-0.31786,0.03659

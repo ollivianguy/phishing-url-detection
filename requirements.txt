@@ -1,20 +1,10 @@
-# ---------------------------------------------------------------------------
-# Pinned dependencies for the phishing-URL baseline.
+# Pinned dependencies: the exact versions that produced every number in the
+# README. All of them ship prebuilt wheels for Python 3.13, so no compiler is
+# needed. A newer Python may need newer pins (which can shift results slightly).
 #
-# These versions all ship prebuilt wheels for Python 3.13 (the version on this
-# machine), so installing them does NOT require a C/C++ compiler.
-#
-# IMPORTANT: install and run with the 3.13 interpreter -- on this machine that
-# is `python` (3.13.5), NOT the `py` launcher (it points at a 3.14 beta that
-# most of these packages have no wheels for yet, so pip would try to build them
-# from source and fail).
-#
-# Recommended setup (PowerShell, from this folder):
-#     python -m venv .venv
-#     .\.venv\Scripts\Activate.ps1
-#     pip install -r requirements.txt
-#     python phishing_baseline.py
-# ---------------------------------------------------------------------------
+#   python -m venv .venv
+#   .\.venv\Scripts\python.exe -m pip install -r requirements.txt     (Windows)
+#   ./.venv/bin/python -m pip install -r requirements.txt             (macOS / Linux)
 ucimlrepo==0.0.7
 numpy==2.1.3
 scipy==1.14.1

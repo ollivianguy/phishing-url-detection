@@ -1,0 +1,10 @@
+feature,mean_legit,mean_phishing,pct_phishing_zero,pct_legit_zero
+LineOfCode,1947.4917,65.7305,0.0,0.0
+NoOfExternalRef,85.2946,1.1281,54.7427,0.3337
+NoOfImage,44.9466,0.8665,83.4355,0.9618
+NoOfJS,17.7325,0.8903,77.1499,1.0619
+NoOfCSS,10.7448,0.4396,80.3229,1.9689
+NoOfSelfRef,113.4102,0.496,78.5358,3.7575
+HasSocialNet,0.7946,0.0051,99.4938,20.5443
+HasCopyrightInfo,0.8082,0.0573,94.2662,19.1761
+HasDescription,0.7366,0.0442,95.5837,26.3367

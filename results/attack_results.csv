@@ -1,0 +1,11 @@
+scenario,recall,evasion,ci95_low,ci95_high
+No attack,0.99445,0.00555,0.99314,0.99552
+HTTPS only,0.67679,0.32321,0.6693,0.6842
+All five moves at once,0.54451,0.45549,0.53657,0.55243
+Adaptive (best of 32 per URL),0.51149,0.48851,0.50353,0.51945
+Feature-space (same five moves),0.30934,0.69066,0.30203,0.31675
+single move: name without digits/hyphens,0.99313,0.00687,0.99169,0.99433
+single move: register as .com,0.99359,0.00641,0.99219,0.99475
+single move: add 'www.',0.97629,0.02371,0.97374,0.9786
+single move: page at site root,0.98587,0.01413,0.98386,0.98763
+single move: serve over HTTPS,0.67679,0.32321,0.6693,0.6842

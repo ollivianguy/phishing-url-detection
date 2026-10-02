@@ -1,0 +1,7 @@
+baseline,model,split,precision,recall,f1,roc_auc
+all_features,LogReg,val,1.0,0.9995,0.9997,1.0
+all_features,RandomForest,val,1.0,1.0,1.0,1.0
+all_features,RandomForest,test,1.0,1.0,1.0,1.0
+url_only,LogReg,val,0.9995,0.9906,0.995,0.9984
+url_only,RandomForest,val,0.9979,0.9942,0.9961,0.9988
+url_only,RandomForest,test,0.998,0.9954,0.9967,0.9989
